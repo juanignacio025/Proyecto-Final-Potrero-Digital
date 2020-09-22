@@ -11,6 +11,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  /*Variables agregadas por mí*/
+  --azul_oscuro: #031321;
+  --fondo_nav: #031321;
+  --fondo_brillante: #2196f3; 
+
+
+
+  /* ------------------------------------*/
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -6095,17 +6103,17 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: var(--azul_oscuro) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: var(--azul_oscuro) !important;
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: var(--fondo_nav) !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10094,7 +10102,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: var(--fondo_brillante);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10116,11 +10124,12 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: var(--fondo_brillante);
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: var(--fondo_brillante);
   }
 
   #mainNav.navbar-shrink {
