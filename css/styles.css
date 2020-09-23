@@ -2879,6 +2879,7 @@ fieldset:disabled a.btn {
 }
 .btn-outline-light:focus, .btn-outline-light.focus {
   /* box-shadow: 0 0 10px var(--fondo_brillante), 0 0 40px var(--fondo_brillante), 0 0 80px var(--fondo_brillante); */
+  outline:none;
 }
 .btn-outline-light.disabled, .btn-outline-light:disabled {
   color:var(--fondo_brillante);;
@@ -2890,9 +2891,8 @@ fieldset:disabled a.btn {
   border-color: var(--fondo_brillante);;
 }
 .btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  box-shadow: 0 0 0 0.2rem var(--fondo_brillante)
 }
-
 .btn-outline-dark {
   color: #343a40;
   border-color: #343a40;
@@ -10066,6 +10066,7 @@ h3 {
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
+  outline: none;
 }
 
 .scroll-to-top {
