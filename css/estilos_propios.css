@@ -1,0 +1,22 @@
+:root{
+
+}
+
+.vp{
+    height: 100vh !important;
+}
+/* div numero uno */
+
+.icon-web{
+    /* filter: hue-rotate(50deg) invert(2) saturate(1); */
+    height: 50vh;
+    filter: brightness(40%);
+}
+
+.icon-maquetacion{
+    /* height: 50vh;   */ 
+}
+
+.txt-img-carrousel{
+    text-shadow: 5px 5px 10px #558aab, 5px 5px 20px #999, 5px 5px 40px #999;
+}
