@@ -10,6 +10,7 @@
 .icon-web{
     /* filter: hue-rotate(50deg) invert(2) saturate(1); */
     height: 50vh;
+    width: 100%;
     filter: brightness(40%);
 }
 
@@ -20,3 +21,19 @@
 .txt-img-carrousel{
     text-shadow: 5px 5px 10px #558aab, 5px 5px 20px #999, 5px 5px 40px #999;
 }
+
+h1{
+    font-size: 2em;
+}
+
+/* landscape */
+@media (max-height: 500px) and (orientation: landscape){
+    h1{
+        font-size: 1.5em;
+        margin-top: -60px;
+    }
+}
+
+
+
+
